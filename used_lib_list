@@ -1,0 +1,10 @@
+pm2 
+express
+cors
+helmet
+dotenv
+mysql
+dayjs
+crypto
+jsonwebtoken
+axios
