@@ -18,5 +18,9 @@
   },
   "kakao" : {
     "key" : "KakaoAK b8a043502c935400cdca94d896470b77"
+  },
+  "weather" : {
+    "key" : "DA1AAMAjmL1A%2B93AWBfGWukdX0PrnP0FtN8dclnh7OleXvtF3hv164Xn5sANSNPCxfH0tq%2FecoNb4Gu0oVLVng%3D%3D"
   }
+  
 }

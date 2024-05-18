@@ -10,6 +10,10 @@ router.use('/project/login', winter_p_login);
 const check_token = require('./winter_project/check_token/check_token');
 router.use('/project/token', check_token);
 
+// 날씨 확인 
+const weather = require('./weather/weather');
+router.use('/project/weather', weather);
+
 // 아이디 중복 확인
 const winter_p_check_id = require('./winter_project/sign_up/check_Id/check_id');
 router.use('/project/check_id', winter_p_check_id);
