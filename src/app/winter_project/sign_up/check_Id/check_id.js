@@ -7,6 +7,11 @@ router.use('/', async(req, res)=>{
         // 중복확인 할 ID 정보 가져오기
         const {account} = req.query;
         console.log(`중복 확인 할 아이디 : ${account}`);
+        if(!account) return res.status(400).json({
+            code : 400,
+            message : '사용할 아이디를 입력해주세요',
+            result : false
+        })
         const result = await m_check_id.check_id(account);
     
         if(result.length > 0){

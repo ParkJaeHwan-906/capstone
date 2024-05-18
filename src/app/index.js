@@ -6,6 +6,10 @@ const router = require('express').Router();
 const winter_p_login = require('./winter_project/login/login');
 router.use('/project/login', winter_p_login);
 
+// 토큰 유효성 검사
+const check_token = require('./winter_project/check_token/check_token');
+router.use('/project/token', check_token);
+
 // 아이디 중복 확인
 const winter_p_check_id = require('./winter_project/sign_up/check_Id/check_id');
 router.use('/project/check_id', winter_p_check_id);
