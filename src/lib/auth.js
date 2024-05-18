@@ -69,7 +69,10 @@ exports.verify = function (req, res, next) {
   
     try {
       const token = header.split(' ').pop();
-      const decode = jwt.verify(token, secret_key);
+      const decode = jwt.verify(token, secret_key, {
+        // 토큰 만료 시간
+        expiresIn: "2h"
+      });
   
       let decipher = crypto.createDecipheriv('aes-256-cbc', keys, buffer);
       let result = decipher.update(decode.iss, 'base64', 'utf8');
