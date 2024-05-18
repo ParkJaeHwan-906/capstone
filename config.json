@@ -1,0 +1,22 @@
+{
+  "jwt": {
+    "key": "pa3qeeQb+bPdV2awP5TC6UfLqCxx2H2MhPlbiqMDZ2s="
+  },
+  "salt": {
+    "key": "06J9LS0HKAKYFH7VZ147XA02DQUHDNV2VW5F1OWO8MQ=",
+    "tpKey": "4Zw84iXhJ4nhj6zdFweLpYbmcF0bw08MPTLAadCHnLc=",
+    "cipher": "1VDS3LBKKG9QC/M27L0S3LNSJSZZ46VEH0MPQDYQFCC=",
+    "iv": "dwL+t5c+CILROWBtj/WWi0Qrhmzn6JjhxYBCIwLhn44=",
+    "buffer": "Bigddex Salt",
+    "key2": "Bigddex Key",
+    "index": ""
+  },
+  "auth": {
+    "key": "big ddex Advanced Encryption Standard",
+    "password": "ddex AES-256 auth Password",
+    "buffer": "ddex Buffer"
+  },
+  "kakao" : {
+    "key" : "KakaoAK b8a043502c935400cdca94d896470b77"
+  }
+}
