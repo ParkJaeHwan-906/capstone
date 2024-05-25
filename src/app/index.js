@@ -22,6 +22,10 @@ router.use('/project/check_id', winter_p_check_id);
 const winter_p_sign_up = require('./winter_project/sign_up/sign_up');
 router.use('/project/sign_up', winter_p_sign_up);
 
+// 장소
+const place = require('./winter_project/place/place');
+router.use('/project/place', place);
+
 //-----------------------------------------------------------------------
 // DB 테스트
 const db_test = require('./winter_project/test/db_test');
