@@ -1,7 +1,8 @@
 const router = require('express').Router();
 
 // 장난감
-
+const naver = require('./crawling/naver_map');
+router.use('/naver', naver);
 //-----------------------------------------------------------
 // puppeteer 
 

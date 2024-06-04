@@ -69,6 +69,8 @@ router.use('/create/key',create_key);
 const kakao = require('./kakao_api/test');
 router.use('/kakao', kakao);
 
+const sorry = require('./sorry');
+router.use('/사과받아줘', sorry);
 
 router.use('/', (req, res, next) => {
     console.log('index ok');
